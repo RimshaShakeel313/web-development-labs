@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Website - Registration</title>
+   <link rel="stylesheet" href="green.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>MY WEBSITE</h1>
+        <h3>Create Your Account</h3>
+        <p>Join us and start your journey!</p>
+    </div>
+
+    <div class="theme-options">
+        <b>Choose Theme:</b>
+
+        <label>
+            <input type="radio" name="theme" id="green"
+                   value="green" checked>
+            Green
+        </label>
+
+        <label>
+            <input type="radio" name="theme" id="blue"
+                   value="blue">
+            Blue
+        </label>
+    </div>
+
+    <div class="main-heading">
+        <h1>Registration Form</h1>
+        <p>Please fill in your details below.</p>
+    </div>
+
+    <div class="form-box registration-box">
+
+        <form action="welcome.html">
+
+            <b>Full Name:</b>
+            <br><br>
+
+            <input type="text" name="fullname" required>
+
+            <br><br>
+
+            <b>Username:</b>
+            <br><br>
+
+            <input type="text" name="username" required>
+
+            <br><br>
+
+            <b>Email Address:</b>
+            <br><br>
+
+            <input type="email" name="email" required>
+
+            <br><br>
+
+            <b>Password:</b>
+            <br><br>
+
+            <input type="password" name="password" required>
+
+            <br><br>
+
+            <b>Confirm Password:</b>
+            <br><br>
+
+            <input type="password" name="confirm" required>
+
+            <br><br>
+
+            <b>Date of Birth:</b>
+            <br><br>
+
+            <input type="date" name="dob" required>
+
+            <br><br>
+
+            <b>Gender:</b>
+            <br><br>
+
+            <input type="radio" name="gender"
+                   value="Male" required> Male
+
+            <input type="radio" name="gender"
+                   value="Female"> Female
+
+            <input type="radio" name="gender"
+                   value="Other"> Other
+
+            <br><br>
+
+            <b>Country:</b>
+            <br><br>
+
+            <select name="country">
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <br><br>
+
+            <input type="checkbox" name="terms" required>
+
+            I agree to the Terms and Conditions.
+
+            <br><br><br>
+
+            <div class="button-area">
+
+                <input type="submit" value="Create Account">
+
+                <input type="reset" value="Clear Form">
+
+            </div>
+
+        </form>
+
+    </div>
+
+    <div class="main-heading">
+        <p>
+            Already have an account?
+            <a href="login.html">Login Here</a>
+        </p>
+    </div>
+
+    <div class="footer">
+        <h3>Thank You for Joining Us!</h3>
+        <p>Made with love &#9829;</p>
+    </div>
+
+</body>
+</html>

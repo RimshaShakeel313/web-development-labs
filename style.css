@@ -1,0 +1,236 @@
+
+/* General Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #E1F5E8;
+    color: #205C35;
+}
+
+/* Header */
+
+.header {
+    background-color: #A5D6B2;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main Heading */
+
+.main-heading {
+    text-align: center;
+    margin: 25px;
+}
+
+/* Theme Buttons */
+
+.theme-options {
+    text-align: center;
+    padding: 15px;
+}
+
+.theme-options button {
+    padding: 10px 25px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Individual Theme Buttons */
+
+.green-button {
+    background-color: #31834C;
+}
+
+.blue-button {
+    background-color: #2878B5;
+}
+
+.purple-button {
+    background-color: #8847A8;
+}
+
+/* Button Hover Effect */
+
+.theme-options button:hover {
+    opacity: 0.7;
+}
+
+/* Selected Theme Button */
+
+.theme-options button.selected {
+    border: 3px solid black;
+}
+
+/* Form Box */
+
+.form-box {
+    background-color: #F5FFF7;
+    width: 350px;
+    max-width: 85%;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #999;
+}
+
+/* Registration Form Box */
+
+.registration-box {
+    width: 400px;
+}
+
+/* Form Heading */
+
+.form-box h2 {
+    text-align: center;
+}
+
+/* Input Fields */
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box input[type="email"],
+.form-box input[type="date"],
+.form-box select {
+    width: 95%;
+    padding: 9px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+/* Radio Buttons and Checkboxes */
+
+.form-box input[type="radio"],
+.form-box input[type="checkbox"] {
+    margin: 8px 4px;
+}
+
+/* Form Buttons Alignment */
+
+.button-area {
+    text-align: center;
+}
+
+/* Submit and Reset Buttons */
+
+.form-box input[type="submit"],
+.form-box input[type="reset"] {
+    background-color: #31834C;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Form Button Hover */
+
+.form-box input[type="submit"]:hover,
+.form-box input[type="reset"]:hover {
+    opacity: 0.7;
+}
+
+/* Links */
+
+a {
+    color: inherit;
+}
+
+/* Welcome Page Box */
+
+.welcome-box {
+    background-color: #F5FFF7;
+    width: 600px;
+    max-width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #999;
+}
+
+/* Thank You Message */
+
+.thank-you {
+    text-align: center;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #A5D6B2;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* GREEN THEME */
+
+body.green {
+    background-color: #E1F5E8;
+    color: #205C35;
+}
+
+body.green .header,
+body.green .footer {
+    background-color: #A5D6B2;
+}
+
+body.green .form-box,
+body.green .welcome-box {
+    background-color: #F5FFF7;
+}
+
+body.green input[type="submit"],
+body.green input[type="reset"] {
+    background-color: #31834C;
+}
+
+/* BLUE THEME */
+
+body.blue {
+    background-color: #E3F2FD;
+    color: #164E63;
+}
+
+body.blue .header,
+body.blue .footer {
+    background-color: #A9D6F5;
+}
+
+body.blue .form-box,
+body.blue .welcome-box {
+    background-color: #F5FAFF;
+}
+
+body.blue input[type="submit"],
+body.blue input[type="reset"] {
+    background-color: #2878B5;
+}
+
+/* PURPLE THEME */
+
+body.purple {
+    background-color: #F3E0F7;
+    color: #4A235A;
+}
+
+body.purple .header,
+body.purple .footer {
+    background-color: #D3B8E0;
+}
+
+body.purple .form-box,
+body.purple .welcome-box {
+    background-color: #FAF5FC;
+}
+
+body.purple input[type="submit"],
+body.purple input[type="reset"] {
+    background-color: #8847A8;
+}

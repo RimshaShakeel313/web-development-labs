@@ -1,0 +1,244 @@
+
+/* General Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #E1F5E8;
+    color: #205C35;
+}
+
+/* Header */
+
+.header {
+    background-color: #A5D6B2;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Theme Buttons */
+
+.theme-options {
+    text-align: center;
+    padding: 15px;
+}
+
+.theme-options button {
+    padding: 10px 25px;
+    margin: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.green-button {
+    background-color: #31834C;
+}
+
+.blue-button {
+    background-color: #2878B5;
+}
+
+.purple-button {
+    background-color: #8847A8;
+}
+
+.theme-options button:hover {
+    opacity: 0.7;
+}
+
+.theme-options button.selected {
+    border: 3px solid black;
+}
+
+/* Calculator Box */
+
+.calculator {
+    background-color: #F5FFF7;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #999;
+}
+
+/* Calculator Display */
+
+.display {
+    margin-bottom: 15px;
+}
+
+.display input {
+    width: 95%;
+    height: 55px;
+    font-size: 25px;
+    text-align: right;
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+/* Calculator Buttons */
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.buttons button {
+    height: 55px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D8EBDD;
+    color: #205C35;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    opacity: 0.7;
+}
+
+/* Operator Buttons */
+
+.buttons .operator {
+    background-color: #A5D6B2;
+    font-weight: bold;
+}
+
+/* Clear and Delete Buttons */
+
+.buttons .clear,
+.buttons .delete {
+    background-color: #E69A9A;
+    color: white;
+}
+
+/* Equal Button */
+
+.buttons .equal {
+    background-color: #31834C;
+    color: white;
+    grid-column: span 2;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #A5D6B2;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* GREEN THEME */
+
+body.green {
+    background-color: #E1F5E8;
+    color: #205C35;
+}
+
+body.green .header,
+body.green .footer {
+    background-color: #A5D6B2;
+}
+
+body.green .calculator {
+    background-color: #F5FFF7;
+}
+
+body.green .buttons button {
+    background-color: #D8EBDD;
+    color: #205C35;
+}
+
+body.green .buttons .operator {
+    background-color: #A5D6B2;
+}
+
+body.green .buttons .clear,
+body.green .buttons .delete {
+    background-color: #E69A9A;
+    color: white;
+}
+
+body.green .buttons .equal {
+    background-color: #31834C;
+    color: white;
+}
+
+/* BLUE THEME */
+
+body.blue {
+    background-color: #E3F2FD;
+    color: #164E63;
+}
+
+body.blue .header,
+body.blue .footer {
+    background-color: #A9D6F5;
+}
+
+body.blue .calculator {
+    background-color: #F5FAFF;
+}
+
+body.blue .buttons button {
+    background-color: #D5EAF8;
+    color: #164E63;
+}
+
+body.blue .buttons .operator {
+    background-color: #A9D6F5;
+}
+
+body.blue .buttons .clear,
+body.blue .buttons .delete {
+    background-color: #E69A9A;
+    color: white;
+}
+
+body.blue .buttons .equal {
+    background-color: #2878B5;
+    color: white;
+}
+
+/* PURPLE THEME */
+
+body.purple {
+    background-color: #F3E0F7;
+    color: #4A235A;
+}
+
+body.purple .header,
+body.purple .footer {
+    background-color: #D3B8E0;
+}
+
+body.purple .calculator {
+    background-color: #FAF5FC;
+}
+
+body.purple .buttons button {
+    background-color: #EAD9F0;
+    color: #4A235A;
+}
+
+body.purple .buttons .operator {
+    background-color: #D3B8E0;
+}
+
+body.purple .buttons .clear,
+body.purple .buttons .delete {
+    background-color: #E69A9A;
+    color: white;
+}
+
+body.purple .buttons .equal {
+    background-color: #8847A8;
+    color: white;
+}

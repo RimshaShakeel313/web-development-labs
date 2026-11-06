@@ -1,0 +1,84 @@
+
+body {
+    background-color: #E1F5E8;
+    color: #205C35;
+    font-family: Arial;
+    margin: 0;
+}
+
+.header {
+    background-color: #A5D6B2;
+    text-align: center;
+    padding: 15px;
+}
+
+.main-heading {
+    text-align: center;
+    margin: 25px;
+}
+
+.form-box {
+    background-color: #F5FFF7;
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #A5D6B2;
+}
+
+.registration-box {
+    width: 400px;
+}
+
+.form-box h2 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 95%;
+    padding: 8px;
+}
+
+.button-area {
+    text-align: center;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #31834C;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+a {
+    color: #176B35;
+}
+
+.theme-options {
+    text-align: center;
+    padding: 15px;
+}
+
+.welcome-box {
+    background-color: #F5FFF7;
+    width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    text-align: center;
+    border: 1px solid #A5D6B2;
+}
+
+.thank-you {
+    text-align: center;
+}
+
+.footer {
+    background-color: #A5D6B2;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
